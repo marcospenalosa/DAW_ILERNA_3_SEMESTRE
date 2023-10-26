@@ -15,7 +15,7 @@ if(a === b){
 console.log("Operaciones del mismo tipo")
 var c = 2
 var suma = c + 2
-console.log(typeof(suma)) // integrer
+console.log(typeof(suma)) // number
 console.log(suma) // 4
 
 
