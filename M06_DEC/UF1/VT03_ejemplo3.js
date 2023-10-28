@@ -26,9 +26,9 @@ function modificarTamano(operacion){
     if(operacion == "+"){
         tamano = parseInt(tamano) + 5 // 205
     }else{
-        tamano = parseInt(tamano) - 5 // 205
+        tamano = parseInt(tamano) - 5 // 195
     }
-    tamano = tamano + "%" // 205%
+    tamano = tamano + "%" // 205% | 195%
     textoFijo.style.fontSize = tamano
     console.log(tamano)
 }
